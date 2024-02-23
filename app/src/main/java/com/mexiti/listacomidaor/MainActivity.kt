@@ -6,6 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -104,7 +105,13 @@ fun MenuCard(platillo:Platillo, modifier: Modifier = Modifier ){
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MenuTopAppBar(modifier : Modifier = Modifier){
-    CenterAlignedTopAppBar(title = { /*TODO*/ })
+    CenterAlignedTopAppBar(
+        title = {
+            Row {
+
+            }
+        }
+    )
 }
 
 
