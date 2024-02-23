@@ -14,29 +14,32 @@ val AbrilFatFace = FontFamily(
 val Monserrat = FontFamily(
     Font(R.font.montserrat_bold),Font(R.font.montserrat_regular)
 )
+val Exo = FontFamily(
+    Font(R.font.exotwo_regular)
+)
 
 // Set of Material typography styles to start with
 val Typography = Typography(
     displayLarge = TextStyle(
-        fontFamily = AbrilFatFace,
+        fontFamily = Exo,
         fontWeight = FontWeight.Normal,
         fontSize = 36.sp,
     ),
 
     displayMedium = TextStyle(
-        fontFamily = Monserrat,
+        fontFamily = Exo,
         fontWeight = FontWeight.Bold,
         fontSize = 20.sp
     ),
 
     labelSmall = TextStyle(
-        fontFamily = Monserrat,
+        fontFamily = Exo,
         fontWeight = FontWeight.Bold,
         fontSize = 14.sp
     ),
 
     bodyLarge = TextStyle(
-        fontFamily = Monserrat,
+        fontFamily = Exo,
         fontWeight = FontWeight.Bold,
         fontSize = 14.sp
     )
