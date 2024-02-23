@@ -115,7 +115,7 @@ fun MenuTopAppBar(modifier : Modifier = Modifier){
                 verticalAlignment = Alignment.CenterVertically
             ){
 
-                Image(painter = painterResource(id = R.drawable.logo_commudel),
+                Image(painter = painterResource(id = R.drawable.tenedor),
                     contentDescription = null,
                 modifier = modifier
                     .padding(8.dp)
